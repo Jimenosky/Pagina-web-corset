@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="Spanish"> 
+
+<head>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta charset="utf-8">
+    <meta name="Proyecto Tercera" content="Proyecto Tercera">
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+
+<menu>
+    <div class="menu-up">
+        <a href="">
+        <img src="./img/wowhead.webp" alt="">
+        </a>
+    </div>
+
+    <div class="menu-down">
+        <div class="menu-container">
+            <div class="menu-left">     
+                <a href="">News</a>     
+                <a href="">Discord Webhook</a>      
+                <a href="">Database</a>     
+                <a href="">Tools</a>        
+                <a href="">Guides</a>       
+                <a href="">Community</a>        
+                <a href="">Premium</a>      
+            </div>    
+            <div class="hamburger-icon">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>  
+        </div>
+        <div class="menu-right">
+            
+            <a href="">Login</a>
+        </div>
+
+    </div>
+</menu>
