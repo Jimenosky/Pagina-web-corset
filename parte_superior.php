@@ -16,26 +16,24 @@
     </div>
 
     <div class="menu-down">
-        <div class="menu-container">
-            <div class="menu-left">     
-                <a href="">News</a>     
-                <a href="">Discord Webhook</a>      
-                <a href="">Database</a>     
-                <a href="">Tools</a>        
-                <a href="">Guides</a>       
-                <a href="">Community</a>        
-                <a href="">Premium</a>      
-            </div>    
-            <div class="hamburger-icon">
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>  
+    <div class="menu-container">
+        <div class="hamburger-icon">
+            <span></span>
+            <span></span>
+            <span></span>
         </div>
-        <div class="menu-right">
-            
-            <a href="">Login</a>
+        <div class="menu-left">
+            <a href="">News</a>
+            <a href="">Discord Webhook</a>
+            <a href="">Database</a>
+            <a href="">Tools</a>
+            <a href="">Guides</a>
+            <a href="">Community</a>
+            <a href="">Premium</a>
         </div>
-
     </div>
+    <div class="menu-right">
+        <a href="">Login</a>
+    </div>
+</div>
 </menu>
