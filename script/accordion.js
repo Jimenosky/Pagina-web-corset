@@ -2,12 +2,12 @@ console.log('Cargando Acordion');
 
 const dataAccordion = [
     {
-        title: "Nuevos lanzamientos",
-        desc: "Ofrecemos lo ultimo en videojuegos",
+        title: "Preguntas Frecuentes",
+        desc: "Corsets underbust: se ajustan debajo del busto, enfocándose en la cintura y el abdomen",
     },
 
     {
-        title: "Juegos retro",
+        title: "¿Cómo medir tu talla de corset?",
         desc: "Contamos con una gran extension de juegos retro",
     },
 ];

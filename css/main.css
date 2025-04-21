@@ -4,23 +4,45 @@
 }
 
 menu {
-    background-color: #101010;
+    background-color: #22102c;
     width: 100%;
     height: 110px;
+    
 }
 
 .menu-up{
     height: 50%;
-    border: 1px solid #626262;
+    border: 1px solid #000000;
     display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: flex-start;
+    align-items: center; /* Centra verticalmente */
+    padding-top: 10px;
+    padding-left: 11px;
+   
 }
+
+.menu-up a {
+    text-decoration: none;
+}
+
+.menu-up .logo { /* Especificidad para solo afectar la imagen dentro de .menu-up */
+    height: auto; /* Mantiene la proporción */
+    margin-right: 15px; /* Espacio entre el logo y el texto */
+  }
+
+  .menu-up .texto-logo { /* Especificidad para solo afectar el span dentro de .menu-up */
+    position: relative; /* Necesario para que funcione transform */
+    top: -14px; /* Ajusta este valor para subir las letras */
+    font-family: Tahoma, sans-serif; /* Ejemplo de fuente sans-serif fina */
+    font-weight: normal; /* Asegúrate de no estar usando un peso bold por defecto */
+    font-size: 28px; /* Ajusta el tamaño de la fuente */
+    font-weight: bold; /* Poner en negrita si lo deseas */
+    color: rgb(207, 200, 200);; /* Cambiar el color del texto */
+    font-style:inherit; /* Aplica la cursiva */
+  }
 
 .menu-down{
     height: 50%;
-    border: 1px solid #626262;
+    border: 1px solid #000000;
     display: flex;
     flex-direction: row;
 }
@@ -32,14 +54,15 @@ menu {
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
+    height: 44px;
 }
 
 .menu-left a{
     text-decoration: none;
-    color: #bbb;
+    color: rgb(190, 132, 23);
     display: inline-block;
     font-family: "Open Sans", Arial, "Helvetica Neue", Helvetica, sans-serif;
-    font-size: 15px;
+    font-size: 17px;
     font-weight: bold;
     height: 50px;
     letter-spacing: 1px;
@@ -49,24 +72,25 @@ menu {
 }
 
 .menu-left a:hover{
-    color: white;
+    color: rgb(255, 255, 255);
 }
 
 .menu-right {
-    padding-left: 40px;
+    padding-left: 310px;
     width: 700px;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
+    height: 50px;
 }
 
 .menu-right a {
     text-decoration: none;
-    color: #bbb;
+    color: rgb(190, 132, 23);
     display: inline-block;
     font-family: "Open Sans", Arial, "Helvetica Neue", Helvetica, sans-serif;
-    font-size: 15px;
+    font-size: 17px;
     font-weight: bold;
     height: 50px;
     letter-spacing: 1px;
@@ -76,11 +100,11 @@ menu {
 }
 
 .menu-right a:hover{
-    color: white;
+    color: rgb(255, 255, 255);
 }
 
 .main-accordion-container{
-    background-color: beige;
+    background-color: rgb(0, 0, 0);
     width: 100%;
 }
 
@@ -91,7 +115,7 @@ menu {
     align-items: center;
     justify-content: center;
     height: auto;
-    border-top: 1px black solid;
+    border-top: 1px rgb(0, 0, 0) solid;
 }
 
 .accordion-item:hover{
@@ -100,8 +124,9 @@ menu {
 }
 
 .accordion-title {
+    color: rgb(236, 236, 236);
     width: 100%;
-    background-color: antiquewhite;
+    background-color: #291c30;
     height: 50px;
     font-size: 20px;
     font-weight: 500;
@@ -111,8 +136,10 @@ menu {
     justify-content: center;
 }
 
+
 .accordion-desc {
     display: none;
+    color: #ffffff;
 }
 
 .accordion-title .tab-active {
@@ -122,7 +149,7 @@ menu {
 
 .tab-active .accordion-desc {
     width: 100%;
-    background-color: gainsboro;
+    background-color: #19101f;
     height: 50px;
     display: flex;
     flex-direction: column;
@@ -150,6 +177,7 @@ menu {
     overflow: hidden;
     margin: 0 20px;
     box-shadow: 3px 3px 8px 0 black;
+    background-color:#19101f;
 }
 
 .card-item:hover {
@@ -172,6 +200,7 @@ menu {
 }
 
 .card-title {
+    color:rgb(255, 255, 255);
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -184,7 +213,7 @@ menu {
 }
 
 .card-desc {
-   
+    color:#ffffff;
     width: 100%;
     height: 70px;
     display: flex;
@@ -200,14 +229,14 @@ menu {
     width: 120px;
     height: 30px;
     text-decoration: none;
-    color: rgb(17, 30, 141);
+    color: rgb(190, 132, 23);
     border: 1px solid black;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
     border-radius: 5px;
-    background-color: rgba(141, 238, 225, 0.856);
+    background-color:#22102c;
 }
 
 .card-cta:hover {

@@ -11,7 +11,8 @@
 <menu>
     <div class="menu-up">
         <a href="">
-        <img src="./img/wowhead.webp" alt="">
+        <img src="./img/dorado.png" alt="" width="48" height="49">
+        <span class="texto-logo"> Glamour Ajustado </span>
         </a>
     </div>
 
@@ -23,17 +24,17 @@
             <span></span>
         </div>
         <div class="menu-left">
-            <a href="">News</a>
-            <a href="">Discord Webhook</a>
-            <a href="">Database</a>
-            <a href="">Tools</a>
-            <a href="">Guides</a>
-            <a href="">Community</a>
-            <a href="">Premium</a>
+            <a href="">Ir al inicio</a>
+            <a href="">Historia del Corset</a>
+            <a href="">Nuevos Ingresos</a>
+            <a href="">Ofertas y Descuentos</a>
         </div>
     </div>
     <div class="menu-right">
-        <a href="">Login</a>
+    <a href="">
+        <img src="./img/avatar.png" alt="" width="41" height="42">
+        
+        </a>
     </div>
 </div>
 </menu>
