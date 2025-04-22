@@ -9,7 +9,7 @@
         <h3>Enlaces Útiles</h3>
         <ul>
           <li><a href="#">Inicio</a></li>
-          <li><a href="#">coleccion</a></li>
+          <li><a href="#">Nuestros corsets</a></li>
           <li><a href="#">preguntas frecuentes</a></li>
           <li><a href="#">Ayuda</a></li>
         </ul>

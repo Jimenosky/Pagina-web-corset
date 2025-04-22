@@ -25,10 +25,9 @@
           <span></span>
         </div>
         <div class="menu-left">
-          <a href="">Ir al inicio</a>
-          <a href="">Nuestros corsets</a>
           <a href="">Nuevos Ingresos</a>
           <a href="">Ofertas y Descuentos</a>
+          <a href="">Nuestros corsets</a>
         </div>
       </div>
       <div class="menu-right">
@@ -64,6 +63,11 @@
       <p>Con el tiempo, el corset dejó de ser una necesidad diaria y se transformó en un elemento estilístico utilizado en la moda contemporánea, el teatro y el diseño. Hoy, su función es más estética que restrictiva, priorizando la comodidad y el estilo sobre la rigidez tradicional.</p>
     </div>
   </div>
+
+  <div class="nuevos-ingresos">
+    <h1 class="nuevos-ingresos-titulo">Nuevos Ingresos</h1>
+    <p class="nuevos-ingresos-subtitulo">Descubre lo último en nuestra colección de corsets exclusivos.</p>
+</div>
 
   <script>
     const historiaCarrusel = document.getElementById('historiaCarrusel');
