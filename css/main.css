@@ -4,11 +4,11 @@
 }
 
 menu {
-    
+
     width: 100%;
     height: auto;
     background-color: #311042;
-   
+
 }
 
 
@@ -314,13 +314,13 @@ menu {
     border-bottom: 3px solid rgb(0, 0, 0);
     color: white;
     transition: transform 0.3s ease-in-out;
-  }
-  
-  .OfertasyDescuentos-corsets:hover {
+}
+
+.OfertasyDescuentos-corsets:hover {
     transform: scale(1.02);
-  }
-  
-  .OfertasyDescuentos-corsets-titulo {
+}
+
+.OfertasyDescuentos-corsets-titulo {
     color: rgb(255, 255, 255);
     font-size: 2.8em;
     font-weight: bold;
@@ -331,28 +331,28 @@ menu {
     display: flex;
     align-items: center;
     justify-content: center;
-  }
-  
-  .OfertasyDescuentos-corsets-subtitulo {
+}
+
+.OfertasyDescuentos-corsets-subtitulo {
     color: #eee;
     font-size: 1.2em;
     font-style: italic;
     margin-top: 10px;
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
-  }
-  
-  
-  .precio-original {
-    color: lightgray !important; 
-    font-size: 1.1em !important; 
+}
+
+
+.precio-original {
+    color: lightgray !important;
+    font-size: 1.1em !important;
     font-weight: bold
-  }
-  
-  .precio-descuento {
-    color: rgb(226, 153, 18); 
-    font-size: 1.3em !important; 
-    font-weight: bold !important; 
-  }
+}
+
+.precio-descuento {
+    color: rgb(226, 153, 18);
+    font-size: 1.3em !important;
+    font-weight: bold !important;
+}
 
 .card-list {
     width: 90%;
@@ -373,14 +373,14 @@ menu {
 .card-item {
     border: 1px solid black;
     width: 20%;
-    min-height: 450px; 
+    min-height: 450px;
     border-radius: 10px;
     overflow: hidden;
     margin: 0 20px;
     box-shadow: 3px 3px 8px 0 black;
     background-color: #19101f;
-    display: flex; 
-    flex-direction: column; 
+    display: flex;
+    flex-direction: column;
     transition: transform 0.3s ease-in-out;
 }
 
@@ -396,11 +396,11 @@ menu {
 
 .card-info {
     height: auto;
-    padding: 20px 12px; 
+    padding: 20px 12px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    align-items: flex-start; 
+    align-items: flex-start;
 }
 
 .card-title {
@@ -419,19 +419,19 @@ menu {
 .card-desc {
     color: #ffffff;
     width: 100%;
-    height: auto; 
+    height: auto;
     display: flex;
     flex-direction: row;
     align-items: flex-start;
     justify-content: flex-start;
-    font-size: 15px; 
+    font-size: 15px;
     text-align: justify;
     margin-bottom: 15px;
 }
 
 .card-price {
     color: rgb(218, 148, 19);
-    font-size: 22px; 
+    font-size: 22px;
     margin-bottom: 5px;
     font-weight: bold;
 }
@@ -449,28 +449,29 @@ menu {
     justify-content: center;
     border-radius: 5px;
     background-color: #22102c;
-    margin-top: auto; 
+    margin-top: auto;
     font-weight: bold;
-    cursor: pointer; /* Esto cambiará el cursor a la "manita" al pasar el ratón */
-    transition: background-color 0.3s ease; /* Opcional: para una transición suave del color de fondo */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
 }
 
 .card-cta:hover {
     transform: scale(1.01) translateX(2px) translateY(-2px);
-    background-color: #0056b3; /* Cambia este color al que desees para el efecto hover */
-  color: white; /* Opcional: cambia el color del texto al hacer hover */
+    background-color: #0056b3;
+    color: white;
 }
 
 .card-measures {
     color: #969292;
-    font-size: 0.9em; 
+    font-size: 0.9em;
     margin-bottom: 10px;
     font-style: italic;
 }
 
 .agradecimiento-seccion {
     display: flex;
-    justify-content: center; /* Centra los elementos internos (video y texto) */
+    justify-content: center;
+    /* Centra los elementos internos (video y texto) */
     align-items: center;
     padding: 40px 20px;
     background-color: #22102c;
@@ -478,72 +479,106 @@ menu {
     border-radius: 8px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
     position: relative;
-    max-width: 900px; /* Ajusta este valor al ancho máximo deseado */
-    margin-left: auto; /* Centra horizontalmente */
-    margin-right: auto; /* Centra horizontalmente */
-  }
-  
-  .agradecimiento-video {
-    width: 250px; /* Ancho fijo para el contenedor cuadrado del video */
-    height: 250px; /* Alto fijo para el contenedor cuadrado del video */
-    border-radius: 15px; /* Bordes más redondeados */
-    overflow: hidden; /* Recorta el video si no coincide exactamente con el cuadrado */
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra suave para el video */
-  }
-  
-  .agradecimiento-video video {
+    max-width: 900px;
+    /* Ajusta este valor al ancho máximo deseado */
+    margin-left: auto;
+    /* Centra horizontalmente */
+    margin-right: auto;
+    /* Centra horizontalmente */
+}
+
+.agradecimiento-video {
+    width: 250px;
+    /* Ancho fijo para el contenedor cuadrado del video */
+    height: 250px;
+    /* Alto fijo para el contenedor cuadrado del video */
+    border-radius: 15px;
+    /* Bordes más redondeados */
+    overflow: hidden;
+    /* Recorta el video si no coincide exactamente con el cuadrado */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    /* Sombra suave para el video */
+}
+
+.agradecimiento-video video {
     display: block;
     width: 100%;
     height: 100%;
-    object-fit: cover; /* Cubre el contenedor cuadrado, puede recortar */
+    object-fit: cover;
+    /* Cubre el contenedor cuadrado, puede recortar */
     border-radius: 15px;
-  }
-  
-  .agradecimiento-texto {
+}
+
+.agradecimiento-texto {
     max-width: 40%;
     text-align: left;
     padding: 20px;
-  }
-  
-  .agradecimiento-texto h3 {
+}
+
+.agradecimiento-texto h3 {
     color: #ffffff;
     font-size: 24px;
     margin-bottom: 15px;
     font-weight: bold;
-  }
-  
-  .agradecimiento-texto p {
+}
+
+.agradecimiento-texto p {
     color: #ffffff;
     line-height: 1.6;
-  }
-  
-  /* Ajustes para centrar en pantallas más anchas */
-  @media (min-width: 900px) {
+}
+
+@media (min-width: 900px) {
     .agradecimiento-seccion {
-      justify-content: center; /* Asegura que la sección esté centrada */
+        justify-content: center;
     }
-  }
-  
-  /* Estilos responsivos para pantallas más pequeñas */
-  @media (max-width: 768px) {
-  .agradecimiento-seccion {
-    flex-direction: column;
-    text-align: center;
-    margin-bottom: 40px;
-    max-width: 95%; /* Ocupa un poco más de ancho en pantallas pequeñas */
-  }
-  
-  .agradecimiento-video {
-    width: 80%; /* Ocupa un porcentaje del ancho */
-    height: auto; /* Ajusta la altura automáticamente */
-    margin-bottom: 20px;
-  }
-  
+}
+
+@media (max-width: 768px) {
+    .agradecimiento-seccion {
+        flex-direction: column;
+        text-align: center;
+        margin-bottom: 40px;
+        max-width: 95%;
+    }
+
+    .agradecimiento-video {
+        width: 80%;
+        height: auto;
+        margin-bottom: 20px;
+    }
+
     .agradecimiento-texto {
-      max-width: 80%;
-      text-align: center;
+        max-width: 80%;
+        text-align: center;
     }
-  }
+}
+
+@media (max-width: 576px) {
+    .agradecimiento-seccion {
+        padding: 20px 10px;
+        margin-bottom: 30px;
+    }
+
+    .agradecimiento-video {
+        width: 95%;
+        margin-bottom: 15px;
+    }
+
+    .agradecimiento-texto {
+        max-width: 95%;
+        padding: 15px;
+        font-size: 0.9em;
+    }
+
+    .agradecimiento-texto h3 {
+        font-size: 1.2em;
+        margin-bottom: 10px;
+    }
+
+    .agradecimiento-texto p {
+        line-height: 1.4;
+    }
+}
 
 @media screen and (max-width: 1250px) {
     .card-item {
@@ -669,6 +704,90 @@ menu {
     }
 }
 
+/* Estilos para pantallas muy pequeñas (hasta 400px aproximadamente) */
+@media screen and (max-width: 400px) {
+    .menu-up {
+        flex-direction: column;
+        /* Apila el logo y el icono del menú */
+        align-items: flex-start;
+        /* Alinea los elementos a la izquierda */
+        height: auto;
+        /* Ajusta la altura automáticamente */
+        padding: 10px;
+        /* Reduce el padding general */
+    }
+
+    .menu-up .logo {
+        margin-right: 0;
+        /* Elimina el margen derecho del logo */
+        margin-bottom: 5px;
+        /* Añade un pequeño margen inferior */
+        max-width: 80%;
+        /* Limita el ancho del logo si es muy grande */
+        height: auto;
+        /* Asegura que la altura se ajuste proporcionalmente */
+    }
+
+    .menu-up .texto-logo {
+        font-size: 20px;
+        /* Reduce el tamaño del texto del logo */
+        top: 0;
+        /* Reinicia la posición vertical */
+        margin-bottom: 10px;
+        /* Añade un margen inferior */
+    }
+
+    .menu-container {
+        justify-content: flex-start;
+        /* Alinea el icono del menú a la izquierda */
+        padding-right: 0;
+        /* Elimina el padding derecho */
+    }
+
+    .hamburger-icon {
+        margin-left: 10px;
+        /* Añade un margen izquierdo al icono */
+    }
+
+    .accordion-title {
+        font-size: 24px;
+        /* Reduce el tamaño del título del acordeón */
+        padding: 20px 0;
+    }
+
+    .tab-active .accordion-desc {
+        font-size: 18px;
+        /* Reduce el tamaño de la descripción del acordeón */
+        padding: 20px 10px;
+        /* Añade padding horizontal */
+        text-align: left;
+        /* Alinea el texto a la izquierda para mejor lectura */
+    }
+
+    .nuevos-ingresos-titulo,
+    .nuestros-corsets-titulo,
+    .OfertasyDescuentos-corsets-titulo {
+        font-size: 2.2em;
+        /* Reduce ligeramente los títulos de las secciones */
+    }
+
+    .card-title {
+        font-size: 24px;
+        /* Reduce el tamaño del título de la tarjeta */
+    }
+
+    .card-desc {
+        font-size: 18px;
+        /* Reduce el tamaño de la descripción de la tarjeta */
+    }
+
+    .card-cta {
+        font-size: 18px;
+        /* Reduce el tamaño del texto del botón de la tarjeta */
+        padding: 8px;
+    }
+}
+
 footer {
     background-color: #311042;
     color: #fff;
@@ -715,17 +834,17 @@ li {
 a {
     color: #ccc;
     text-decoration: none;
-   
+
 }
 
 a:hover {
     color: #fff;
-    
+
 }
 
 .copyright {
     text-align: center;
     padding-top: 15px;
     border-top: 1px solid #555;
-    
+
 }
