@@ -1,3 +1,16 @@
+<div class="agradecimiento-seccion">
+<div class="agradecimiento-video">
+  <video autoplay loop muted style="width: 110%; height: 110%;">
+    <source src="./img/corset.mp4" type="video/mp4">
+  </video>
+</div>
+  <div class="agradecimiento-texto">
+    <h3>¡Gracias por elegir Glamour Ajustado!</h3>
+    <p>En Glamour Ajustado, cada corset es seleccionado con pasión y pensando en realzar tu belleza y confianza. Agradecemos de corazón que nos elijas para encontrar esa pieza especial que te haga sentir única y poderosa. ¡Tu estilo es nuestra inspiración!</p>
+    </div>
+</div>
+
+
 <footer>
   <div class="container">
     <div class="row">
@@ -9,7 +22,7 @@
         <h3>Enlaces Útiles</h3>
         <ul>
           <li><a href="#">Inicio</a></li>
-          <li><a href="#">Nuestros corsets</a></li>
+          <li><a href="#nuestros-corsets">Nuestros corsets</a></li>
           <li><a href="#">preguntas frecuentes</a></li>
           <li><a href="#">Ayuda</a></li>
         </ul>

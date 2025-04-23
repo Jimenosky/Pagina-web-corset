@@ -25,9 +25,9 @@
           <span></span>
         </div>
         <div class="menu-left">
-          <a href="">Nuevos Ingresos</a>
-          <a href="">Nuestros corsets</a>
-          <a href="">Ofertas y Descuentos</a>
+          <a href="#nuestros-ingresos">Nuevos ingresos</a>
+          <a href="#nuestros-corsets">Nuestros corsets</a>
+          <a href="#OfertasyDescuentos-corsets">Ofertas y Descuentos</a>
         </div>
       </div>
       <div class="menu-right">
@@ -84,21 +84,21 @@
   </script>
 </body>
 
-<div class="nuevos-ingresos">
+<div class="nuevos-ingresos" id="nuestros-ingresos">
   <h1 class="nuevos-ingresos-titulo">Nuevos Ingresos</h1>
   <p class="nuevos-ingresos-subtitulo">Descubre lo último en nuestra colección de corsets exclusivos.</p>
 </div>
 <div class="existing-cards-container card-list">
   </div>
 
-<div class="nuestros-corsets">
+  <div class="nuestros-corsets" id="nuestros-corsets">
   <h1 class="nuestros-corsets-titulo">Nuestros Corsets</h1>
   <p class="nuestros-corsets-subtitulo">Explora nuestra amplia selección de corsets únicos.</p>
 </div>
 <div class="nuestros-corsets-cards-container card-list">
   </div>
 
-<div class="OfertasyDescuentos-corsets">
+<div class="OfertasyDescuentos-corsets" id="OfertasyDescuentos-corsets">
   <h1 class="OfertasyDescuentos-corsets-titulo">Nuestras Ofertas y Descuentos</h1>
   <p class="OfertasyDescuentos-corsets-subtitulo">¡Las mejores ofertas y descuentos en nuestros corsets solo para ti!.</p>
 </div>
