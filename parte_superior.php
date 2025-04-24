@@ -12,7 +12,7 @@
   <menu>
     <div class="menu-up">
       <a href="">
-        <img src="./img/dorado.png" alt="" width="48" height="49">
+        <img src="./img/dorado.png" alt="" width="50" height="49">
         <span class="texto-logo"> Glamour Ajustado </span>
       </a>
     </div>

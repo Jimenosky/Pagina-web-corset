@@ -1,17 +1,25 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+iframe {
+    max-width: 100%;
+    width: 100%;
 }
 
 menu {
-
     width: 100%;
     height: auto;
     background-color: #311042;
-
 }
-
-
 
 .menu-up {
     height: 50%;
@@ -98,7 +106,7 @@ menu {
 }
 
 .menu-right-item {
-    margin-left: 15px;
+    margin-left: 20px;
 }
 
 .menu-right-item a {
@@ -149,12 +157,14 @@ menu {
 .historia-contenido h2 {
     font-size: 2.5em;
     margin-bottom: 20px;
+    font-family: 'Arial', sans-serif;
 }
 
 .historia-contenido p {
     font-size: 1.1em;
     line-height: 1.6;
     margin-bottom: 15px;
+    font-family: 'Arial', sans-serif;
 }
 
 .main-accordion-container {
@@ -185,17 +195,18 @@ menu {
     height: 50px;
     font-size: 20px;
     font-weight: 500;
+    font-family: 'Arial', sans-serif;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-}
 
+}
 
 .accordion-desc {
     align-items: center;
     justify-content: center;
-    font-size: 16px;
+    font-size: 13px;
     font-family: 'Times New Roman', Times, serif;
     display: none;
     color: rgb(255, 255, 255);
@@ -203,6 +214,7 @@ menu {
     text-align: center;
     white-space: normal;
     line-height: 1.5;
+    font-family: 'Arial', sans-serif;
 }
 
 .accordion-title .tab-active {
@@ -221,11 +233,11 @@ menu {
     padding: 10px 0;
     text-align: center;
     white-space: normal;
-    line-height: 1.5;
+    line-height: 1.1;
 }
 
 .nuevos-ingresos {
-    width: 96%;
+    width: auto;
     padding: 30px;
     display: flex;
     flex-direction: column;
@@ -261,10 +273,11 @@ menu {
     font-style: italic;
     margin-top: 10px;
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
+    font-family: 'Arial', sans-serif;
 }
 
 .nuestros-corsets {
-    width: 96%;
+    width: auto;
     padding: 30px;
     display: flex;
     flex-direction: column;
@@ -300,11 +313,12 @@ menu {
     font-style: italic;
     margin-top: 10px;
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
+    font-family: 'Arial', sans-serif;
 }
 
 
 .OfertasyDescuentos-corsets {
-    width: 96%;
+    width: auto;
     padding: 30px;
     display: flex;
     flex-direction: column;
@@ -339,6 +353,7 @@ menu {
     font-style: italic;
     margin-top: 10px;
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
+    font-family: 'Arial', sans-serif;
 }
 
 
@@ -352,6 +367,7 @@ menu {
     color: rgb(226, 153, 18);
     font-size: 1.3em !important;
     font-weight: bold !important;
+    font-family: 'Arial', sans-serif;
 }
 
 .card-list {
@@ -412,7 +428,7 @@ menu {
     justify-content: center;
     font-size: 20px;
     font-weight: bold;
-    font-family: 'Lucida Sans';
+    font-family: 'Arial', sans-serif;
     margin-bottom: 20px;
 }
 
@@ -427,6 +443,7 @@ menu {
     font-size: 15px;
     text-align: justify;
     margin-bottom: 15px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .card-price {
@@ -434,6 +451,7 @@ menu {
     font-size: 22px;
     margin-bottom: 5px;
     font-weight: bold;
+    font-family: 'Arial', sans-serif;
 }
 
 
@@ -453,6 +471,7 @@ menu {
     font-weight: bold;
     cursor: pointer;
     transition: background-color 0.3s ease;
+    font-family: 'Arial', sans-serif;
 }
 
 .card-cta:hover {
@@ -466,12 +485,12 @@ menu {
     font-size: 0.9em;
     margin-bottom: 10px;
     font-style: italic;
+    font-family: 'Arial', sans-serif;
 }
 
 .agradecimiento-seccion {
     display: flex;
     justify-content: center;
-    /* Centra los elementos internos (video y texto) */
     align-items: center;
     padding: 40px 20px;
     background-color: #22102c;
@@ -480,24 +499,16 @@ menu {
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
     position: relative;
     max-width: 900px;
-    /* Ajusta este valor al ancho máximo deseado */
     margin-left: auto;
-    /* Centra horizontalmente */
     margin-right: auto;
-    /* Centra horizontalmente */
 }
 
 .agradecimiento-video {
     width: 250px;
-    /* Ancho fijo para el contenedor cuadrado del video */
     height: 250px;
-    /* Alto fijo para el contenedor cuadrado del video */
     border-radius: 15px;
-    /* Bordes más redondeados */
     overflow: hidden;
-    /* Recorta el video si no coincide exactamente con el cuadrado */
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    /* Sombra suave para el video */
 }
 
 .agradecimiento-video video {
@@ -505,7 +516,6 @@ menu {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    /* Cubre el contenedor cuadrado, puede recortar */
     border-radius: 15px;
 }
 
@@ -513,6 +523,8 @@ menu {
     max-width: 40%;
     text-align: left;
     padding: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
 }
 
 .agradecimiento-texto h3 {
@@ -520,72 +532,18 @@ menu {
     font-size: 24px;
     margin-bottom: 15px;
     font-weight: bold;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
 }
 
 .agradecimiento-texto p {
     color: #ffffff;
     line-height: 1.6;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
 }
 
-@media (min-width: 900px) {
-    .agradecimiento-seccion {
-        justify-content: center;
-    }
-}
 
-@media (max-width: 768px) {
-    .agradecimiento-seccion {
-        flex-direction: column;
-        text-align: center;
-        margin-bottom: 40px;
-        max-width: 95%;
-    }
-
-    .agradecimiento-video {
-        width: 80%;
-        height: auto;
-        margin-bottom: 20px;
-    }
-
-    .agradecimiento-texto {
-        max-width: 80%;
-        text-align: center;
-    }
-}
-
-@media (max-width: 576px) {
-    .agradecimiento-seccion {
-        padding: 20px 10px;
-        margin-bottom: 30px;
-    }
-
-    .agradecimiento-video {
-        width: 95%;
-        margin-bottom: 15px;
-    }
-
-    .agradecimiento-texto {
-        max-width: 95%;
-        padding: 15px;
-        font-size: 0.9em;
-    }
-
-    .agradecimiento-texto h3 {
-        font-size: 1.2em;
-        margin-bottom: 10px;
-    }
-
-    .agradecimiento-texto p {
-        line-height: 1.4;
-    }
-}
-
-@media screen and (max-width: 1250px) {
-    .card-item {
-        width: 45%;
-        margin-bottom: 50px;
-    }
-}
 
 @media screen and (max-width: 1000px) {
     .menu-container {
@@ -594,13 +552,68 @@ menu {
         display: flex;
         flex-direction: row;
         justify-content: flex-end;
+        /* Hamburguesa a la derecha */
         align-items: center;
         padding-right: 10px;
         position: relative;
     }
 
-    .menu-right {
-        display: none;
+    .menu-up {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: auto;
+        padding: 15px 0;
+        border-bottom: 1px solid #000;
+        width: 100%;
+    }
+
+    .menu-up a {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-decoration: none;
+    }
+
+    .menu-up .logo {
+        height: 50px;
+        margin-right: 0;
+        margin-bottom: 8px;
+    }
+
+    .menu-up .texto-logo {
+        position: static;
+        font-size: 1.8em;
+    }
+
+    .menu-down {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        height: 50px;
+        padding: 0 15px;
+        border: none;
+        width: 100%;
+        flex-direction: row-reverse;
+        border-bottom: 1px solid #000000;
+    }
+
+    .hamburger-icon {
+        width: 40px;
+        height: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        cursor: pointer;
+    }
+
+    .hamburger-icon span {
+        background-color: white;
+        width: 100%;
+        height: 6px;
+        display: block;
+        border-radius: 2px;
     }
 
     .menu-left {
@@ -613,7 +626,7 @@ menu {
         height: auto;
         flex-direction: column;
         justify-content: center;
-        align-items: center;
+        align-items: flex-end;
         border: 5px solid rgb(15, 36, 105);
         background-color: rgb(0, 0, 0);
         border-radius: 15px;
@@ -621,172 +634,1640 @@ menu {
         margin-top: 10px;
     }
 
+    .menu-right {
+        display: none;
+    }
+
+
+    .menu-right {
+        padding-left: 0;
+        padding-right: 0;
+        display: flex;
+        align-items: center;
+        height: auto;
+        width: auto;
+        transition: none;
+    }
+
+    .menu-right-item {
+        display: block;
+        margin-left: 19px;
+        margin-bottom: -9px;
+    }
+
+    .menu-right-item a i {
+        font-size: 1.8em;
+    }
+
+    .menu-right-item a img {
+        width: 170%;
+        height: 41px;
+    }
+
+    .menu-container.menu-open .menu-left {
+        display: flex;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        z-index: 2;
+        width: auto;
+        height: auto;
+        min-height: auto;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border: none;
+        background-color: rgba(0, 0, 0, 0.9);
+        border-radius: 0;
+        padding: 15px;
+        margin-top: 0;
+        margin-left: 0;
+        transform: translateX(0);
+    }
+
+    .menu-container.menu-open .menu-left a {
+        color: white;
+        padding: auto;
+        display: block;
+        text-align: center;
+        font-size: 1.2em;
+        width: 100%;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        border-bottom: 1px solid #333;
+    }
+
+    .menu-container.menu-open .menu-left a:last-child {
+        border-bottom: none;
+    }
+
+    .main-accordion-container {
+        background-color: rgb(0, 0, 0);
+        width: 100%;
+    }
+
+    .accordion-item {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+        justify-content: center;
+        height: auto;
+        border-top: 1px rgb(0, 0, 0) solid;
+        transition: transform 0.3s ease-in-out;
+    }
+
+    .accordion-item:hover {
+        transform: scale(1.02);
+        border: 1px solid black;
+    }
+
+    .accordion-title {
+        color: white;
+        width: 100%;
+        background-color: #291c30;
+        height: auto;
+        font-size: 1.3em;
+        font-weight: bold;
+        font-family: 'Arial', sans-serif;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        padding: 15px;
+        cursor: pointer;
+    }
+
+
+    .accordion-desc {
+        align-items: flex-start;
+        justify-content: flex-start;
+        font-size: 1.3em;
+        font-family: 'Helvetica', sans-serif;
+        display: none;
+        color: #ddd;
+        padding: 15px;
+        text-align: left;
+        white-space: normal;
+        line-height: 1.9;
+        font-weight: normal;
+        background-color: #19101f;
+        letter-spacing: 0.02em;
+    }
+
+    .accordion-title .tab-active {
+        font-size: 1.1em;
+        pointer-events: auto;
+    }
+
+    .tab-active .accordion-desc {
+        display: block;
+        height: auto;
+        padding: 15px;
+    }
+
+    .card-list {
+        display: flex;
+        /* Activa el flexbox */
+        flex-wrap: wrap;
+        /* Permite que las cards pasen a la siguiente línea */
+        justify-content: center;
+        /* Alinea las cards al inicio (izquierda) */
+        padding: 20px;
+        /* Espacio alrededor de las cards */
+    }
+
+    .card-item {
+        width: calc(48% - 30px);
+        /* Ancho para que dos cards quepan por fila (con margen) */
+        margin-right: 20px;
+        /* Margen a la derecha para separar las cards en la misma fila */
+        margin-bottom: 20px;
+        /* Margen inferior para separar las filas */
+    }
+
+
+    .card-item:nth-child(even) {
+        margin-right: 0;
+    }
+
+    /* Asegura que la última card de la última fila no tenga margen inferior extra si es la única */
+    .card-item:last-child {
+        margin-bottom: 20px;
+        /* Mantén un margen inferior consistente */
+    }
+
+    .card-info {
+        padding: 15px 10px;
+    }
+
+    .card-title {
+        font-size: 1.5em;
+        margin-bottom: 10px;
+        text-align: center;
+        font-weight: bold;
+        font-family: 'Arial', sans-serif;
+    }
+
+    .card-desc {
+        font-size: 1.3em;
+        line-height: 1.8;
+        text-align: left;
+        margin-bottom: 8px;
+        font-family: 'Arial', sans-serif;
+        font-weight: bold;
+    }
+
+    .card-price {
+        font-size: 1.4em;
+        font-family: 'Arial', sans-serif;
+    }
+
+    .precio-original {
+        font-size: 1.1em;
+        font-family: 'Arial', sans-serif;
+    }
+
+    .precio-descuento {
+        font-size: 1.4em;
+        font-family: 'Arial', sans-serif;
+    }
+
+    .card-cta {
+        width: 150px;
+        height: 50px;
+        font-size: 1.2em;
+        border-width: 2px;
+        font-family: 'Arial', sans-serif;
+    }
+
+    .card-cta:hover {
+        font-size: 1.2em;
+    }
+
+    .card-measures {
+        font-size: 1.3em;
+        margin-bottom: 5px;
+        font-family: 'Arial', sans-serif;
+    }
+
+    .carrito-mensaje {
+        display: none;
+        font-size: 1.5em;
+        font-weight: bold;
+        color: green;
+        margin-top: 5px;
+    }
+
+    .agradecimiento-seccion {
+        flex-direction: row;
+        text-align: center;
+        margin-bottom: 40px;
+        width: auto;
+        height: 400px;
+        padding: 20px;
+    }
+
+    .agradecimiento-video {
+        width: 1000px;
+        height: 350px;
+        margin-bottom: 15px;
+    }
+
+    .agradecimiento-texto {
+        max-width: 90%;
+        text-align: center;
+        font-size: 0.9em;
+        font-family: 'Arial', sans-serif;
+    }
+
+
+    .agradecimiento-texto p {
+        font-size: 1.6em;
+        line-height: 1.2;
+        text-align: center;
+        margin-bottom: 8px;
+        font-family: 'Arial', sans-serif;
+
+    }
+
+    footer {
+        background-color: #311042;
+        color: #fff;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        font-size: 0.9em;
+    }
+
+    .container {
+        max-width: 100%;
+        padding: 20px;
+    }
+
+    .row {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .col-md-4 {
+        flex: 1 1 100%;
+        margin-right: 0;
+        margin-bottom: 20px;
+        font-size: 1.6em;
+        line-height: 1.3;
+        text-align: center;
+        font-family: 'Arial', sans-serif;
+    }
+
+    .row>.col-md-4:first-child {
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+
+    h3 {
+        color: #df9a1b;
+        margin-bottom: 10px;
+        font-size: 1.5em;
+        line-height: 1.1;
+        text-align: center;
+        font-family: 'Arial', sans-serif;
+        font-weight: bold;
+    }
+
+    ul {
+        list-style: none;
+        padding: 0;
+        font-size: 1em;
+        line-height: 1.4;
+        text-align: center;
+        margin-bottom: 15px;
+        font-family: 'Arial', sans-serif;
+        font-weight: bold;
+    }
+
+    li {
+        margin-bottom: 5px;
+        font-size: 1em;
+        line-height: 1.5;
+        text-align: center;
+        font-family: 'Arial', sans-serif;
+        font-weight: bold;
+    }
+
+    a {
+        color: #ccc;
+        text-decoration: none;
+        font-size: 1em;
+        line-height: 1.4;
+        text-align: center;
+        font-family: 'Arial', sans-serif;
+        font-weight: bold;
+    }
+
+    .copyright {
+        text-align: center;
+        padding-top: 10px;
+        border-top: 1px solid #555;
+        font-size: 1.5em;
+        font-family: 'Arial', sans-serif;
+    }
+}
+
+@media screen and (min-width: 1001px) and (max-width: 1250px) {
+    .menu-container {
+        width: auto;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        /* Espacio entre logo/izquierda e iconos/derecha */
+        align-items: center;
+        padding-right: 20px;
+        padding-left: 20px;
+        position: relative;
+    }
+
+    /* Modificación: Ajustamos el contenedor del logo */
+    .menu-up {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        /* Alineamos el logo a la izquierda */
+        height: auto;
+        padding: 19px 10px;
+        border-bottom: 1px solid #000;
+        width: auto;
+        /* Ancho automático para ocupar solo el contenido */
+    }
+
+    .menu-up a {
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+    }
+
+    .menu-up .logo {
+        height: 50px;
+        margin-right: 10px;
+        margin-bottom: 0;
+    }
+
+    .menu-up .texto-logo {
+        position: static;
+        font-size: 1.8em;
+    }
+
+    /* Modificación: Ajustamos el contenedor de los elementos de navegación */
+    .menu-down {
+        display: flex;
+        justify-content: flex-start;
+        /* Alineamos los elementos del menú a la izquierda */
+        align-items: center;
+        height: 50px;
+        padding: 0;
+        border: none;
+        width: auto;
+        /* Ancho automático */
+        flex-direction: row;
+        border-bottom: none;
+    }
+
+
+    /* Modificación: Mostramos y alineamos el menú de navegación horizontalmente */
+    .menu-left {
+        display: flex !important;
+        position: static;
+        top: auto;
+        right: auto;
+        z-index: auto;
+        width: auto;
+        /* Quitado el ancho fijo */
+        height: auto;
+        flex-direction: row;
+        justify-content: flex-start;
+        /* Alineado a la izquierda */
+        align-items: center;
+        border: none;
+        background-color: transparent;
+        border-radius: 0;
+        padding: 0;
+        margin-top: -20px;
+        margin-left: 10px;
+    }
+
+    .menu-left a {
+        color: rgb(223, 159, 23);
+        padding: 10px 15px;
+        display: block;
+        text-align: left;
+        font-size: 1.2em;
+        white-space: nowrap;
+        text-decoration: none;
+        margin-left: 0;
+        /* Reducir o eliminar márgenes grandes */
+        margin-right: 15px;
+        /* Espacio entre enlaces */
+    }
+
+    /* Modificación: Ajustamos la alineación y quitamos el padding izquierdo grande */
+    .menu-right {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        /* Alineamos los iconos a la derecha */
+        padding-left: 0;
+        /* Quitado el padding izquierdo grande */
+        padding-right: 30px;
+        height: auto;
+        width: auto;
+        transition: none;
+        margin-left: auto;
+        /* Empujamos los iconos a la derecha */
+    }
+
+    .menu-right-item {
+        margin-left: 15px;
+        margin-top: 10px;
+        padding: auto;
+    }
+
+    .menu-right-item a img {
+        width: auto;
+        height: 40px;
+    }
+
+    .main-accordion-container {
+        background-color: rgb(0, 0, 0);
+        width: 100%;
+    }
+
+    .accordion-item {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+        justify-content: center;
+        height: auto;
+        border-top: 1px rgb(0, 0, 0) solid;
+        transition: transform 0.3s ease-in-out;
+    }
+
+    .accordion-item:hover {
+        transform: scale(1.02);
+        border: 1px solid black;
+    }
+
+    .accordion-title {
+        color: white;
+        width: 100%;
+        background-color: #291c30;
+        height: auto;
+        font-size: 1.3em;
+        font-weight: bold;
+        font-family: 'Arial', sans-serif;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        padding: 15px;
+        cursor: pointer;
+    }
+
+
+    .accordion-desc {
+        align-items: flex-start;
+        justify-content: flex-start;
+        font-size: 1.3em;
+        font-family: 'Helvetica', sans-serif;
+        display: none;
+        color: #ddd;
+        padding: 15px;
+        text-align: left;
+        white-space: normal;
+        line-height: 1.9;
+        font-weight: normal;
+        background-color: #19101f;
+        letter-spacing: 0.02em;
+    }
+
+    .accordion-title .tab-active {
+        font-size: 1.1em;
+        pointer-events: auto;
+    }
+
+    .tab-active .accordion-desc {
+        display: block;
+        height: auto;
+        padding: 15px;
+    }
+
+    .card-list {
+        display: flex;
+        /* Activa el flexbox */
+        flex-wrap: wrap;
+        /* Permite que las cards pasen a la siguiente línea */
+        justify-content: center;
+        /* Alinea las cards al inicio (izquierda) */
+        padding: 20px;
+        /* Espacio alrededor de las cards */
+    }
+
+    .card-item {
+        width: calc(48% - 30px);
+        /* Ancho para que dos cards quepan por fila (con margen) */
+        margin-right: 20px;
+        /* Margen a la derecha para separar las cards en la misma fila */
+        margin-bottom: 20px;
+        /* Margen inferior para separar las filas */
+    }
+
+    .card-item:nth-child(even) {
+        margin-right: 0;
+    }
+
+    /* Asegura que la última card de la última fila no tenga margen inferior extra si es la única */
+    .card-item:last-child {
+        margin-bottom: 20px;
+        /* Mantén un margen inferior consistente */
+    }
+
+    .card-info {
+        padding: 15px 10px;
+    }
+
+    .card-title {
+        font-size: 1.5em;
+        margin-bottom: 10px;
+        text-align: center;
+        font-weight: bold;
+        font-family: 'Arial', sans-serif;
+    }
+
+    .card-desc {
+        font-size: 1.3em;
+        line-height: 1.8;
+        text-align: left;
+        margin-bottom: 8px;
+        font-family: 'Arial', sans-serif;
+        font-weight: bold;
+    }
+
+    .card-price {
+        font-size: 1.4em;
+        font-family: 'Arial', sans-serif;
+    }
+
+    .precio-original {
+        font-size: 1.1em;
+        font-family: 'Arial', sans-serif;
+    }
+
+    .precio-descuento {
+        font-size: 1.4em;
+        font-family: 'Arial', sans-serif;
+    }
+
+    .card-cta {
+        width: 150px;
+        height: 50px;
+        font-size: 1.2em;
+        border-width: 2px;
+        font-family: 'Arial', sans-serif;
+    }
+
+    .card-cta:hover {
+        font-size: 1.2em;
+    }
+
+    .card-measures {
+        font-size: 1.3em;
+        margin-bottom: 5px;
+        font-family: 'Arial', sans-serif;
+    }
+
+    .carrito-mensaje {
+        display: none;
+        font-size: 1.5em;
+        font-weight: bold;
+        color: green;
+        margin-top: 5px;
+    }
+
+    .agradecimiento-seccion {
+        flex-direction: row;
+        text-align: center;
+        margin-bottom: 40px;
+        width: auto;
+        height: 400px;
+        padding: 20px;
+    }
+
+    .agradecimiento-video {
+        width: 1000px;
+        height: 350px;
+        margin-bottom: 15px;
+    }
+
+    .agradecimiento-texto {
+        max-width: 90%;
+        text-align: center;
+        font-size: 0.9em;
+        font-family: 'Arial', sans-serif;
+    }
+
+
+    .agradecimiento-texto p {
+        font-size: 1.6em;
+        line-height: 1.2;
+        text-align: center;
+        margin-bottom: 8px;
+        font-family: 'Arial', sans-serif;
+
+    }
+
+    footer {
+        background-color: #311042;
+        color: #fff;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        font-size: 0.9em;
+    }
+
+    .container {
+        max-width: 100%;
+        padding: 20px;
+    }
+
+    .row {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .col-md-4 {
+        flex: 1 1 100%;
+        margin-right: 0;
+        margin-bottom: 20px;
+        font-size: 1.6em;
+        line-height: 1.3;
+        text-align: center;
+        font-family: 'Arial', sans-serif;
+    }
+
+    .row>.col-md-4:first-child {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+
+    h3 {
+        color: #df9a1b;
+        margin-bottom: 10px;
+        font-size: 1.5em;
+        line-height: 1.1;
+        text-align: center;
+        font-family: 'Arial', sans-serif;
+        font-weight: bold;
+    }
+
+    ul {
+        list-style: none;
+        padding: 0;
+        font-size: 1em;
+        line-height: 1.4;
+        text-align: center;
+        margin-bottom: 15px;
+        font-family: 'Arial', sans-serif;
+        font-weight: bold;
+    }
+
+    li {
+        margin-bottom: 5px;
+        font-size: 1em;
+        line-height: 1.5;
+        text-align: center;
+        font-family: 'Arial', sans-serif;
+        font-weight: bold;
+    }
+
+    a {
+        color: #ccc;
+        text-decoration: none;
+        font-size: 1em;
+        line-height: 1.4;
+        text-align: center;
+        font-family: 'Arial', sans-serif;
+        font-weight: bold;
+    }
+
+    .copyright {
+        text-align: center;
+        padding-top: 10px;
+        border-top: 1px solid #555;
+        font-size: 1.5em;
+        font-family: 'Arial', sans-serif;
+    }
+}
+
+@media screen and (min-width: 1251px) {
+    /* Estilos para pantallas de 1251px y más grandes */
+
+    .menu-container {
+        width: auto;
+        /* O un ancho fijo si lo prefieres en pantallas grandes */
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        /* Manteniendo la separación logo/izquierda - iconos/derecha */
+        align-items: center;
+        padding-right: 40px;
+        /* Puedes aumentar el padding en pantallas grandes */
+        padding-left: 40px;
+        position: relative;
+    }
+
+    .menu-up {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        height: auto;
+        padding: 13px 15px;
+        /* Aumentando un poco el padding vertical */
+        border-bottom: 1px solid #000;
+        width: auto;
+    }
+
+    .menu-up a {
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+    }
+
+    .menu-up .logo {
+        height: 60px;
+        /* Un logo un poco más grande en pantallas grandes */
+        margin-right: 15px;
+        margin-bottom: 0;
+    }
+
+    .menu-up .texto-logo {
+        width: auto;
+        height: auto;
+        font-size: 1.5em;
+        /* Texto del logo un poco más grande */
+        margin-top: 28px;
+        font-family: 'Arial', sans-serif;
+    }
+
+    .menu-down {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        height: 60px;
+        /* Un poco más de altura para el menú principal */
+        padding: 0;
+        border: none;
+        width: auto;
+        flex-direction: row;
+        border-bottom: none;
+    }
+
+    .menu-left {
+        display: flex !important;
+        /* Asegurando que el menú horizontal se muestre */
+        position: static;
+        top: auto;
+        right: auto;
+        z-index: auto;
+        width: auto;
+        height: auto;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        border: none;
+        background-color: transparent;
+        border-radius: 0;
+        padding: 0;
+        margin-top: -20px;
+        /* Ajustando el margen si es necesario */
+        margin-left: 20px;
+        /* Aumentando un poco el margen izquierdo */
+    }
+
+    .menu-left a {
+        color: rgb(223, 159, 23);
+        padding: 15px 20px;
+        /* Aumentando el padding de los enlaces */
+        display: block;
+        text-align: left;
+        font-size: 1.4em;
+        /* Enlaces un poco más grandes */
+        white-space: nowrap;
+        text-decoration: none;
+        margin-left: 0;
+        margin-right: 20px;
+    }
+
+    .menu-right {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        padding-left: 0;
+        padding-right: 40px;
+        /* Aumentando el padding derecho */
+        height: auto;
+        width: auto;
+        transition: none;
+        margin-left: auto;
+    }
+
+    .menu-right-item {
+        margin-left: 20px;
+        /* Aumentando el margen entre iconos */
+        margin-top: 10px;
+        padding: auto;
+    }
+
+    .menu-right-item a img {
+        width: auto;
+        height: 50px;
+        /* Iconos un poco más grandes */
+    }
+
+    .historia-corset {
+        width: 100%;
+        min-height: 300px;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 70px;
+        box-sizing: border-box;
+        color: white;
+        text-align: center;
+    }
+    
+    .historia-contenido {
+        max-width: 1450px;
+        background-color: rgba(0, 0, 0, 0.7);
+        padding: 30px;
+        border-radius: 10px;
+    }
+    
+    .historia-contenido h2 {
+        font-size: 2.5em;
+        margin-bottom: 20px;
+        font-family: 'Arial', sans-serif;
+    }
+    
+    .historia-contenido p {
+        font-size: 1.5em;
+        line-height: 1.6;
+        margin-bottom: 15px;
+        font-family: 'Arial', sans-serif;
+    }
+
+    /* Estilos base para el acordeón (fuera de las media queries) */
+    .main-accordion-container {
+        background-color: rgb(0, 0, 0);
+        width: 100%;
+    }
+
+    .accordion-item {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+        justify-content: center;
+        height: auto;
+        border-top: 1px rgb(0, 0, 0) solid;
+        transition: transform 0.3s ease-in-out;
+    }
+
+    .accordion-item:hover {
+        transform: scale(1.02);
+        border: 1px solid black;
+    }
+
+    .accordion-title {
+        color: white;
+        width: 100%;
+        background-color: #291c30;
+        height: auto;
+        font-size: 1.5em;
+        font-weight: bold;
+        font-family: 'Arial', sans-serif;
+        display: flex;
+        flex-direction: column;
+        /* Asegurando que el icono esté a la derecha */
+        align-items: center;
+        /* Centrado verticalmente */
+        justify-content: space-between;
+        /* Espacio entre texto e icono */
+        padding: 15px;
+        cursor: pointer;
+    }
+
+
+    .accordion-desc {
+        align-items: flex-start;
+        justify-content: flex-start;
+        font-size: 1.4em;
+        font-family: 'Helvetica', sans-serif;
+        display: none;
+        color: #ddd;
+        padding: 15px;
+        text-align: left;
+        white-space: normal;
+        line-height: 1.9;
+        font-weight: normal;
+        background-color: #19101f;
+        letter-spacing: 0.02em;
+    }
+
+    .accordion-title .tab-active {
+        font-size: 1.1em;
+        pointer-events: auto;
+    }
+
+    .tab-active .accordion-desc {
+        display: block;
+        height: auto;
+        padding: 15px;
+    }
+
+    
+    .precio-original {
+        color: lightgray !important;
+        font-size: 1.6em !important;
+        font-weight: bold
+    }
+
+    .precio-descuento {
+        color: rgb(226, 153, 18);
+        font-size: 1.6em !important;
+        font-weight: bold !important;
+        font-family: 'Arial', sans-serif;
+    }
+
+    .card-list {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+        padding: 30px;
+        gap: 20px;
+        margin: 20px auto 30px auto;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        border-radius: 10px;
+    }
+
+    .card-item {
+        border: 1px solid black;
+        width: 22%; /* Aumentamos el ancho para dar más espacio al contenido */
+        min-height: 500px; /* Aumentamos un poco la altura mínima */
+        border-radius: 10px;
+        overflow: hidden;
+        margin: 0 25px; /* Aumentamos un poco el margen horizontal */
+        box-shadow: 3px 3px 8px 0 black;
+        background-color: #19101f;
+        display: flex;
+        flex-direction: column;
+        transition: transform 0.3s ease-in-out;
+        margin-right: 20px; /* Espacio entre tarjetas */
+        margin-left: 0; 
+    }
+
+    .card-item:hover {
+        transform: scale(1.02);
+    }
+
+    .card-item img {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+    }
+
+    .card-info {
+        height: auto;
+        padding: 25px 15px; /* Aumentamos el padding interior */
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: flex-start;
+    }
+
+    .card-title {
+        color: rgb(255, 255, 255);
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        font-size: 1.3em; /* Aumentamos ligeramente el tamaño del título */
+        font-weight: bold;
+        font-family: 'Arial', sans-serif;
+        margin-bottom: 25px; /* Aumentamos el margen inferior del título */
+    }
+
+    .card-desc {
+        color: #ffffff;
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: flex-start;
+        font-size: 1.4em; /* Aumentamos ligeramente el tamaño de la descripción */
+        text-align: justify;
+        margin-bottom: 20px; /* Aumentamos el margen inferior de la descripción */
+        font-family: 'Arial', sans-serif;
+        line-height: 1.3; /* Aumentamos el interlineado para mejor lectura */
+    }
+
+    .card-price {
+        color: rgb(218, 148, 19);
+        font-size: 1.6em; /* Aumentamos ligeramente el tamaño del precio */
+        margin-bottom: 10px; /* Aumentamos el margen inferior del precio */
+        font-weight: bold;
+        font-family: 'Arial', sans-serif;
+    }
+
+
+    .card-cta {
+        width: 170px; /* Aumentamos un poco el ancho del botón */
+        height: 55px; /* Aumentamos un poco la altura del botón */
+        text-decoration: none;
+        color: rgb(190, 132, 23);
+        border: 1px solid black;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        border-radius: 5px;
+        background-color: #22102c;
+        margin-top: auto;
+        font-weight: bold;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+        font-family: 'Arial', sans-serif;
+        font-size: 1.2em; /* Aumentamos ligeramente el tamaño de la fuente del botón */
+    }
+
+    .card-cta:hover {
+        transform: scale(1.01) translateX(2px) translateY(-2px);
+        background-color: #0056b3;
+        color: white;
+        font-size: 1.2em;
+    }
+
+    .card-measures {
+        color: #969292;
+        font-size: 1.3em; /* Aumentamos ligeramente el tamaño de las medidas */
+        margin-bottom: 12px; /* Aumentamos el margen inferior de las medidas */
+        font-style: italic;
+        font-family: 'Arial', sans-serif;
+    }
+
+    .carrito-mensaje {
+        display: none;
+        font-size: 1.6em;
+        font-weight: bold;
+        color: green;
+        margin-top: 5px;
+    }
+
+    
+    .agradecimiento-seccion {
+        display: flex;
+        justify-content: center; /* Centramos el contenido horizontalmente */
+        align-items: center; /* Centramos el contenido verticalmente */
+        padding: 80px 60px; /* Aumentamos el padding para dar más espacio alrededor */
+        background-color: #22102c;
+        margin-bottom: 80px; /* Aumentamos el margen inferior para más espacio */
+        border-radius: 10px; /* Suavizamos un poco más las esquinas */
+        box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2); /* Sutilizamos un poco más la sombra */
+        position: relative;
+        max-width: 1350px; /* Agrandamos el ancho máximo del contenedor */
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .agradecimiento-video {                     
+        width: 400px; /* Agrandamos un poco el ancho del video */
+        height: 500px;
+        border-radius: 20px; /* Redondeamos un poco más las esquinas del video */
+        overflow: hidden;
+        box-shadow: 0 3px 7px rgba(0, 0, 0, 0.15); /* Sutilizamos la sombra del video */
+        margin-right: 40px; /* Añadimos un poco de espacio entre el video y el texto */
+    }
+    
+    .agradecimiento-video video {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 20px;
+    }
+    
+    .agradecimiento-texto {
+        max-width: 50%; /* Aumentamos el ancho máximo del texto para que ocupe más espacio */
+        text-align: left; /* Alineamos el texto a la izquierda para mejor lectura en un espacio más amplio */
+        padding: 30px; /* Aumentamos el padding alrededor del texto */
+        font-family: 'Arial', sans-serif;
+    }
+    
+    .agradecimiento-texto h3 {
+        color: #ffffff;
+        font-size: 30px; /* Agrandamos el tamaño del encabezado */
+        margin-bottom: 20px; /* Aumentamos el margen inferior del encabezado */
+        font-weight: bold;
+        font-family: 'Arial', sans-serif;
+    }
+    
+    .agradecimiento-texto p {
+        font-size: 1.6em; /* Agrandamos el tamaño del párrafo */
+        color: #ffffff;
+        line-height: 1.4; /* Aumentamos un poco el interlineado para mejor lectura */
+        font-family: 'Arial', sans-serif;
+    }
+
+    footer {
+        background-color: #311042;
+        color: #fff;
+        padding: 40px 0; /* Aumentamos un poco el padding vertical */
+        font-size: 2.0em; /* Aumentamos ligeramente el tamaño de la fuente base */
+        font-family: 'Arial', sans-serif;
+    }
+    
+    .container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 40px;
+    }
+    
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-bottom: 30px; /* Aumentamos un poco el margen inferior entre las columnas */
+    }
+    
+    .col-md-4 {
+        flex: 1;
+        margin-right: 90px;
+        font-size: 1.5em; /* Aumentamos ligeramente el tamaño del título */
+        font-family: 'Arial', sans-serif;
+    }
+    
+    .row>.col-md-4:last-child {
+        margin-right: 0;
+    }
+    
+    h3 {
+        color: #df9a1b;
+        margin-bottom: 20px; /* Aumentamos un poco el margen inferior del título */
+        font-size: 1.4em; /* Aumentamos ligeramente el tamaño del título */
+        font-family: 'Arial', sans-serif;
+    }
+    
+    ul {
+        list-style: none;
+        padding: 0;
+    }
+    
+    li {
+        margin-bottom: 10px; /* Aumentamos un poco el margen inferior de los elementos de la lista */
+        
+    }
+    
+    a {
+        color: #ccc;
+        text-decoration: none;
+        font-size: 1.2em; /* Aseguramos que los enlaces también tengan un tamaño legible */
+        font-family: 'Arial', sans-serif;
+    }
+    
+    a:hover {
+        color: #fff;
+    }
+    
+    .copyright {
+        text-align: center;
+        padding-top: 20px; /* Aumentamos un poco el padding superior */
+        border-top: 1px solid #555;
+        font-size: 1.7em; /* Mantenemos un tamaño un poco más pequeño para el copyright */
+        font-family: 'Arial', sans-serif;
+    }
+}
+
+@media screen and (max-width: 830px) {
+    menu {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .menu-up {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: auto;
+        padding: 15px 0;
+        border-bottom: 1px solid #000;
+        width: 100%;
+    }
+
+    .menu-up a {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-decoration: none;
+    }
+
+    .menu-up .logo {
+        height: 20px;
+        margin-right: 0;
+        margin-bottom: 8px;
+    }
+
+    .menu-up .texto-logo {
+        position: static;
+        font-size: 1.6em;
+    }
+
+    .menu-down {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        height: 50px;
+        padding: 0 15px;
+        border: none;
+        width: 100%;
+        flex-direction: row-reverse;
+        border-bottom: 1px solid #000000;
+    }
+
     .hamburger-icon {
-        width: 40px;
+        width: 35px;
         height: 30px;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
+        cursor: pointer;
+        margin-left: 15px;
     }
 
     .hamburger-icon span {
         background-color: white;
         width: 100%;
-        height: 6px;
+        height: 4px;
         display: block;
         border-radius: 2px;
     }
 
-    .menu-container.menu-open .menu-left {
+    .menu-left {
+        display: none !important;
+    }
+
+    .menu-right {
+        padding-left: 0;
+        padding-right: 0;
         display: flex;
-        margin-top: 10px;
+        align-items: center;
+        height: auto;
+        width: auto;
+        transition: none;
+    }
+
+    .menu-right-item {
+        display: block;
+        margin-left: 11px;
+        margin-bottom: -9px;
+    }
+
+    .menu-right-item a i {
+        font-size: 1.8em;
+    }
+
+    .menu-right-item a img {
+        width: 120%;
+        height: 40px;
+    }
+
+    .menu-container.menu-open .menu-left {
+        display: flex !important;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        z-index: 2;
+        width: auto;
+        height: auto;
+        min-height: auto;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border: none;
+        background-color: rgba(0, 0, 0, 0.9);
+        border-radius: 0;
+        padding: 15px;
+        margin-top: 0;
+        margin-left: 0;
+        transform: translateX(0);
     }
 
     .menu-container.menu-open .menu-left a {
         color: white;
-        padding: 5px 10px;
+        padding: auto;
         display: block;
         text-align: center;
+        font-size: 1.2em;
+        width: 100%;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        border-bottom: 1px solid #333;
     }
-}
 
-@media screen and (max-width: 830px) {
+    .menu-container.menu-open .menu-left a:last-child {
+        border-bottom: none;
+    }
 
-    menu {
+    .main-accordion-container {
+        background-color: rgb(0, 0, 0);
+        width: 100%;
+    }
+
+    .accordion-item {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+        justify-content: flex-start;
         height: auto;
+        border-top: 1px rgb(0, 0, 0) solid;
+        transition: transform 0.3s ease-in-out;
     }
 
-    .menu-up {
-        justify-content: center;
-        height: 120px;
-    }
-
-    .menu-down {
-        height: 80px;
-    }
-
-    .menu-up img {
-        height: 150px;
+    .accordion-item:hover {
+        transform: scale(1.02);
+        border: 1px solid black;
     }
 
     .accordion-title {
-        font-size: 30px;
-        padding: 30px 0;
+        color: white;
+        width: 100%;
+        background-color: #291c30;
+        height: auto;
+        font-size: 1.1em;
+        font-weight: bold;
+        font-family: 'Arial', sans-serif;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        padding: 15px;
+        cursor: pointer;
+    }
+
+    .accordion-title::after {
+        content: '+';
+        font-size: 1.3em;
+        color: white;
+    }
+
+    .accordion-item.tab-active .accordion-title::after {
+        content: '-';
+    }
+
+    .accordion-desc {
+        align-items: flex-start;
+        justify-content: flex-start;
+        font-size: 1.1em;
+        font-family: 'Helvetica', sans-serif;
+        display: none;
+        color: #ddd;
+        padding: 15px;
+        text-align: left;
+        white-space: normal;
+        line-height: 1.9;
+        font-weight: normal;
+        background-color: #19101f;
+        letter-spacing: 0.02em;
+    }
+
+    .accordion-title .tab-active {
+        font-size: 1.1em;
+        pointer-events: auto;
     }
 
     .tab-active .accordion-desc {
-        font-size: 25px;
-        text-align: justify;
-        padding: 30px 0;
-
+        display: block;
+        height: auto;
+        padding: 15px;
     }
 
     .card-item {
-        width: 90%;
-        margin-bottom: 50px;
+        width: 95%;
+        margin-bottom: 20px;
+        min-height: auto;
+    }
+
+    .card-info {
+        padding: 15px 10px;
     }
 
     .card-title {
-        font-size: 30px;
-    }
-
-    .card-desc {
-        font-size: 25px;
-        height: auto;
-    }
-
-    .card-cta {
-        width: auto;
-        height: auto;
-        font-size: 25px;
-        padding: 10px;
-
-    }
-}
-
-/* Estilos para pantallas muy pequeñas (hasta 400px aproximadamente) */
-@media screen and (max-width: 400px) {
-    .menu-up {
-        flex-direction: column;
-        /* Apila el logo y el icono del menú */
-        align-items: flex-start;
-        /* Alinea los elementos a la izquierda */
-        height: auto;
-        /* Ajusta la altura automáticamente */
-        padding: 10px;
-        /* Reduce el padding general */
-    }
-
-    .menu-up .logo {
-        margin-right: 0;
-        /* Elimina el margen derecho del logo */
-        margin-bottom: 5px;
-        /* Añade un pequeño margen inferior */
-        max-width: 80%;
-        /* Limita el ancho del logo si es muy grande */
-        height: auto;
-        /* Asegura que la altura se ajuste proporcionalmente */
-    }
-
-    .menu-up .texto-logo {
-        font-size: 20px;
-        /* Reduce el tamaño del texto del logo */
-        top: 0;
-        /* Reinicia la posición vertical */
+        font-size: 1.3em;
         margin-bottom: 10px;
-        /* Añade un margen inferior */
-    }
-
-    .menu-container {
-        justify-content: flex-start;
-        /* Alinea el icono del menú a la izquierda */
-        padding-right: 0;
-        /* Elimina el padding derecho */
-    }
-
-    .hamburger-icon {
-        margin-left: 10px;
-        /* Añade un margen izquierdo al icono */
-    }
-
-    .accordion-title {
-        font-size: 24px;
-        /* Reduce el tamaño del título del acordeón */
-        padding: 20px 0;
-    }
-
-    .tab-active .accordion-desc {
-        font-size: 18px;
-        /* Reduce el tamaño de la descripción del acordeón */
-        padding: 20px 10px;
-        /* Añade padding horizontal */
-        text-align: left;
-        /* Alinea el texto a la izquierda para mejor lectura */
-    }
-
-    .nuevos-ingresos-titulo,
-    .nuestros-corsets-titulo,
-    .OfertasyDescuentos-corsets-titulo {
-        font-size: 2.2em;
-        /* Reduce ligeramente los títulos de las secciones */
-    }
-
-    .card-title {
-        font-size: 24px;
-        /* Reduce el tamaño del título de la tarjeta */
+        text-align: center;
+        font-weight: bold;
+        font-family: 'Arial', sans-serif;
     }
 
     .card-desc {
-        font-size: 18px;
-        /* Reduce el tamaño de la descripción de la tarjeta */
+        font-size: 1.2em;
+        line-height: 1.8;
+        text-align: left;
+        margin-bottom: 8px;
+        font-family: 'Arial', sans-serif;
+        font-weight: bold;
+    }
+
+    .card-price {
+        font-size: 1.3em;
+        font-family: 'Arial', sans-serif;
+    }
+
+    .precio-original {
+        font-size: 1.1em;
+        font-family: 'Arial', sans-serif;
+    }
+
+    .precio-descuento {
+        font-size: 1.3em;
+        font-family: 'Arial', sans-serif;
     }
 
     .card-cta {
-        font-size: 18px;
-        /* Reduce el tamaño del texto del botón de la tarjeta */
-        padding: 8px;
+        width: 150px;
+        height: 50px;
+        font-size: 1.2em;
+        border-width: 2px;
+        font-family: 'Arial', sans-serif;
+    }
+
+    .card-cta:hover {
+        font-size: 1.1em;
+    }
+
+    .card-measures {
+        font-size: 1.2em;
+        margin-bottom: 5px;
+        font-family: 'Arial', sans-serif;
+    }
+
+    .carrito-mensaje {
+        display: none;
+        font-size: 1.5em;
+        font-weight: bold;
+        color: green;
+        margin-top: 5px;
+    }
+
+    .agradecimiento-seccion {
+        flex-direction: row;
+        text-align: center;
+        margin-bottom: 40px;
+        width: auto;
+        height: 400px;
+        padding: 20px;
+    }
+
+    .agradecimiento-video {
+        width: 1000px;
+        height: 350px;
+        margin-bottom: 15px;
+    }
+
+    .agradecimiento-texto {
+        max-width: 90%;
+        text-align: center;
+        font-size: 0.9em;
+        font-family: 'Arial', sans-serif;
+    }
+
+
+    .agradecimiento-texto p {
+        font-size: 1.4em;
+        line-height: 1.2;
+        text-align: center;
+        margin-bottom: 8px;
+        font-family: 'Arial', sans-serif;
+        font-weight: bold;
+    }
+
+    footer {
+        background-color: #311042;
+        color: #fff;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        font-size: 0.9em;
+    }
+
+    .container {
+        max-width: 100%;
+        padding: 20px;
+    }
+
+    .row {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .col-md-4 {
+        flex: 1 1 100%;
+        margin-right: 0;
+        margin-bottom: 20px;
+        font-size: 1.4em;
+        line-height: 1.3;
+        text-align: center;
+        font-family: 'Arial', sans-serif;
+        font-weight: bold;
+    }
+
+    .row>.col-md-4:first-child {
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+
+    h3 {
+        color: #df9a1b;
+        margin-bottom: 10px;
+        font-size: 1.2em;
+        line-height: 1.1;
+        text-align: center;
+        font-family: 'Arial', sans-serif;
+        font-weight: bold;
+    }
+
+    ul {
+        list-style: none;
+        padding: 0;
+        font-size: 1em;
+        line-height: 1.4;
+        text-align: center;
+        margin-bottom: 15px;
+        font-family: 'Arial', sans-serif;
+        font-weight: bold;
+    }
+
+    li {
+        margin-bottom: 5px;
+        font-size: 1em;
+        line-height: 1.4;
+        text-align: center;
+        font-family: 'Arial', sans-serif;
+        font-weight: bold;
+    }
+
+    a {
+        color: #ccc;
+        text-decoration: none;
+        font-size: 1em;
+        line-height: 1.4;
+        text-align: center;
+        font-family: 'Arial', sans-serif;
+        font-weight: bold;
+    }
+
+    .copyright {
+        text-align: center;
+        padding-top: 10px;
+        border-top: 1px solid #555;
+        font-size: 1.3em;
+        font-weight: bold;
+        font-family: 'Arial', sans-serif;
     }
 }
+
+
+
 
 footer {
     background-color: #311042;
