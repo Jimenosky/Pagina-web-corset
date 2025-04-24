@@ -105,7 +105,7 @@ const dataOfertasyDescuentos = [
             this.insertData('.existing-cards-container', _self, dataNuevosIngresos);
             this.insertData('.nuestros-corsets-cards-container', _self, dataNuestrosCorsets);
             this.insertData('.OfertasyDescuentos-corsets-cards-container', _self, dataOfertasyDescuentos);
-            this.setupAddToCartFeedback(); // Nueva función para la retroalimentación
+            this.setupAddToCartFeedback(); 
         },
 
         setupAddToCartFeedback: function () {
@@ -113,11 +113,11 @@ const dataOfertasyDescuentos = [
         
             botonesAgregar.forEach(boton => {
                 boton.addEventListener('click', () => {
-                    const mensajeElement = boton.nextElementSibling; // Obtiene el siguiente elemento (el span)
+                    const mensajeElement = boton.nextElementSibling; 
                     if (mensajeElement && mensajeElement.classList.contains('carrito-mensaje')) {
-                        mensajeElement.style.display = 'inline'; // Muestra el mensaje
+                        mensajeElement.style.display = 'inline'; 
                         setTimeout(() => {
-                            mensajeElement.style.display = 'none'; // Oculta el mensaje después de 2 segundos
+                            mensajeElement.style.display = 'none'; 
                         }, 2000);
                     }
                 });
